@@ -1,3 +1,66 @@
-div .calendar-picker {
-    margin-left: 50rem;
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+li {
+    margin: 0 10px;
+}
+
+Link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+Link:hover {
+    color: #666;
+    cursor: pointer;
+}
+
+.calendar-picker {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
