@@ -48,7 +48,7 @@ const EmployeeSinglePoints = () => {
             </tr>
             {employeeDetailsByPoint.map(
               ({ created_date, activity_name, points }, index) => (
-                <tr key={created_date}>
+                <tr key={index}>
                   <td>{index + 1}</td>
                   <td>{activity_name}</td>
                   <td>{points}</td>
